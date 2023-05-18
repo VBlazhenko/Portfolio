@@ -31,7 +31,7 @@ const Banner = () => {
                 2000, 
                 "Designer", 
                 2000,
-                "Youtuber", 
+                "Creator", 
                 2000,
               ]} 
               speed={50}
@@ -47,19 +47,16 @@ const Banner = () => {
             <motion.div variants={fadeIn('up', 0.6)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}}   
             className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
               <button className='btn btn-lg'> Contact me </button>
-              <a href='#' className='text-gradient btn-link'>My Portfolio</a>
+              <a href='https://www.linkedin.com/in/vladyslav-blazhenko-585007206/' className='text-gradient btn-link'>My Portfolio</a>
             </motion.div>
             {}
             <motion.div variants={fadeIn('up', 0.7)} initial="hidden" whileInView={'show'} viewport={{once: false, amount: 0.7}}  
             className='flex text-[20px] gap-x-6 max-w-max mx-auto
             lg:mx-0'>
-              < a href='#'>
-                <FaYoutube />
-              </a>
-              < a href='#'>
+              < a href='https://github.com/VBlazhenko'>
                 <FaGithub />
               </a>
-              < a href='#'>
+              < a href='https://dribbble.com/vblazhenko'>
                 <FaDribbble />
               </a>
             </motion.div>
