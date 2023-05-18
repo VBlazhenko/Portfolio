@@ -20,12 +20,14 @@ return (
           viewport={{once : false, amount : 0.3}} >
             <h2 className='h2 leading-tight text-accent'>
               My Latest <br />
-              Work.
+              Works.
             </h2>
             <p className='max-w-sm mb-16'>
-              Lorem ipsum is placeholder text commonl
-              sed in the graphic. Lorem ipsum is placeholder
-              text commonlysed in the graphic
+              Previously I have build many portfolios
+              but one of the most intresting tasks
+              was working on a website providing a 
+              learning content with Python Programming
+              Language.
             </p>
             <button className='btn btn-sm'>View All projects</button>
           </motion.div>
@@ -42,15 +44,15 @@ return (
             src={Img1} />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24
              transition-all duration-500 z-50'>
-              <span className='text-gradient'>UI/ UX Design</span>
+              <span className='text-gradient'>Learning website.</span>
              </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14
              transition-all duration-700 z-50'>
-              <span>UI/ UX Design</span>
+              <span>Python learning website.</span>
               </div>
             <div className='absolute -bottom-full left-12
             group:hover:bottom-12 transition-all duration-700 z-50'>
-              <span className='text-3x1 text-white'>Project Title</span>
+
             </div>
           </motion.div>
         </div>
@@ -68,15 +70,14 @@ return (
             src={Img2} />
             <div className='absolute -bottom-full left-12 group-hover:bottom-24
              transition-all duration-500 z-50'>
-              <span className='text-gradient'>UI/ UX Design</span>
+              <span className='text-gradient'>Portfolio</span>
              </div>
             <div className='absolute -bottom-full left-12 group-hover:bottom-14
              transition-all duration-700 z-50'>
-              <span>UI/ UX Design</span>
+              <span>Created many portfolios.</span>
               </div>
             <div className='absolute -bottom-full left-12
             group:hover:bottom-12 transition-all duration-700 z-50'>
-              <span className='text-3x1 text-white'>Project Title</span>
             </div>
           </div>
         </motion.div>

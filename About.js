@@ -27,20 +27,20 @@ const About = () => {
         {}
         <div className='flex-1'>
           <h2 className='h2 text-accent'>About me</h2>
-          <h3 className='h3 mb-4'>I'm a Freelance Front-end Developer with over 5 years of
-             experience.
+          <h3 className='h3 mb-4'>I'm a website developer intrested in making
+          websites creative and animate.
           </h3>
           <p className='mb-6'>
-            Lorem ipsum is placeholder text commonly
-            sed in the graphic. Lorem ipsum is placeholder text commonly
-            sed in the graphic.
+            As a person with a huge passion to deevlopment, I am 
+            desparate with working on websites, discovering new things
+            every-day and making constang improvements.
           </p>
           {}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             <div> 
               <div className='text-[40px] font-teritary text-gradient
               mb-2'> 
-                {inView ? <CountUp start={1} end={5} duration={3}/> :
+                {inView ? <CountUp start={1} end={6} duration={3}/> :
                 null}
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
@@ -51,31 +51,18 @@ const About = () => {
             <div> 
               <div className='text-[40px] font-teritary text-gradient
               mb-2'> 
-                {inView ? <CountUp start={1} end={5} duration={3}/> :
+                {inView ? <CountUp start={1} end={12} duration={3}/> :
                 null}
-                k+
+                
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
                 Projects <br />
                 Completed
               </div>
             </div>
-            <div> 
-              <div className='text-[40px] font-teritary text-gradient
-              mb-2'> 
-                {inView ? <CountUp start={1} end={5} duration={3}/> :
-                null}
-                k+
-              </div>
-              <div className='font-primary text-sm tracking-[2px]'>
-                Satisfied <br />
-                Clients
-              </div>
-            </div>
           </div>
           <div className='flex gap-x-8 items-center'>
-            <button className='btn btn-lg'>Contact me</button>
-            <a href='#' className='text-gradient btn-link'>
+            <a href='https://www.linkedin.com/in/vladyslav-blazhenko-585007206/' className='text-gradient btn-link'>
               My Portfolio
             </a>
           </div>

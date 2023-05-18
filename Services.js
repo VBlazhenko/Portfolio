@@ -6,23 +6,18 @@ import { fadeIn } from '../variants';
 
 const service = [
   {
-    name: "UI/UX design",
-    description: " Lorem ipsum is placeholder text commonl sed in the graphic. Lorem ipsum is placeholder text commonlysed in the graphic.",
+    name: "Website Development",
+    description: "Able to develop any website in a way you desire.",
     link: "Learn more",
   },
   {
-    name: "Development",
-    description: " Lorem ipsum is placeholder text commonl sed in the graphic. Lorem ipsum is placeholder text commonlysed in the graphic.",
+    name: "Website from scratch",
+    description: "If you are not satisfied with the website you have, I can make it better.",
     link: "Learn more",
   },
   {
-    name: "Digital Marketing",
-    description: " Lorem ipsum is placeholder text commonl sed in the graphic. Lorem ipsum is placeholder text commonlysed in the graphic.",
-    link: "Learn more",
-  },
-  {
-    name: "Product Branding",
-    description: " Lorem ipsum is placeholder text commonl sed in the graphic. Lorem ipsum is placeholder text commonlysed in the graphic.",
+    name: "Portfolios",
+    description: " What can be better than having your own portfolio?.",
     link: "Learn more",
   }
 ];
@@ -40,8 +35,12 @@ const Services = () => {
           className='flex-1 lg:bg-services lg:bg-bottom bg-no-repeat
           mix-blend-lighten mb-12 lg:mb-0'>
           <h2 className='h2 text-accent mb-6'>What I do.</h2> 
-          <h3 className='h3 max-w-[455px] mb-16'>Some description here</h3> 
-          <button className='btn btn-sm'>See my work</button>
+          <h3 className='h3 max-w-[455px] mb-16'>Experienced in many fields.</h3> 
+          <div className='flex gap-x-8 items-center'>
+            <a href='https://www.linkedin.com/in/vladyslav-blazhenko-585007206/' className='text-gradient btn-link'>
+              See more.
+            </a>
+          </div>
           </motion.div>
           <motion.div 
           variants={fadeIn("left", 0.5)}
