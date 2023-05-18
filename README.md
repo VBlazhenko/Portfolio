@@ -1,5 +1,12 @@
 For this portfolio i have used Tailwind css and React JS.
 
+Portfolio consisted of 5 sections on the page such as about me, works and contacts.
+
+Learned new skills in:
+JS
+Tailwing
+CSS
+
 ![1](https://github.com/VBlazhenko/Portfolio/assets/78543274/0db98770-0514-482a-9779-c8bccb7b1903)
 ![2](https://github.com/VBlazhenko/Portfolio/assets/78543274/b9caf1b3-e037-44f0-b33f-860cdbab6e50)
 ![3](https://github.com/VBlazhenko/Portfolio/assets/78543274/578b0bbe-341a-4459-9160-724d7ac50eb8)
